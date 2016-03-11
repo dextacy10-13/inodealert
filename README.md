@@ -19,4 +19,4 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 Example crontab below runs every hour and assumes file has been uploaded to /home/user/scripts/
 
-0 * * * * /home/user/scripts/inodeAlertScript.sh >/dev/null 2>&1
+0 * * * * bash /home/user/scripts/inodeAlertScript.sh >/dev/null 2>&1
